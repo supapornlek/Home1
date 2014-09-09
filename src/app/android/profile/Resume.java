@@ -10,6 +10,7 @@ import android.os.Bundle;
 			// TODO Auto-generated method stub
 			super.onCreate(savedInstanceState);
 			setContentView(R.layout.resume);
+			
 			}
 		}
 
