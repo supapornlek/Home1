@@ -32,11 +32,14 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
 	
 	private string g1,g2,g3,g4,g5,g6,g7,g8;
 	
-	@Override
+	@Override 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		supaporn();
+
+	//	DBcontrol_421 dBcontrol_421=new DBcontrol_421(this);
+	//	dBcontrol_421.getWritableDatabase();
 	}
 
 
@@ -74,7 +77,7 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
 		t9.setText("lek");
 		t10.setText("21");
 		t11.setText("157");
-		t12.setText("B");
+		t12.setText("B"); 
 		t13.setText("lek_1543@hotmail.com");
 		t14.setText("Love me Love my Dog");
 		t15.setText("24/06/36");
@@ -94,7 +97,7 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
 		
 		if(t1!=null){
 			t1.setText("Supaporn Ploengpit");
-			t2.setText("NickName");		
+			t12.setText("NickName");		
 			t3.setText("Age");
 			t4.setText("Height");
 			t5.setText("Blood's Group");
